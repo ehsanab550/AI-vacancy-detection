@@ -26,6 +26,7 @@ conda install numpy scipy matplotlib
 pip install pybinding
 
 ### Usage
+
 #### For Experimental Image Analysis
 To achieve high-accuracy predictions from experimental STM images, follow these steps:
 
@@ -42,11 +43,13 @@ Generate Training Data: The code automatically processes your experimental image
 Predict Defect Coordinates: The ML model combines experimental features with synthetic training to predict precise defect coordinates.
 
 ### Main Scripts
+
 AI_vacancy.ipynb: Main code for vacancy detection and analysis
 
 Plotting utilities: Use the provided plotting scripts for visualization.
 
 ### Supported Materials
+
 MoS₂ (Molybdenum Disulfide)
 
 Graphene
@@ -56,6 +59,7 @@ Phosphorene
 Extensible to other 2D materials
 
 ### Methodology
+
 Image Preprocessing: Convert experimental images to grayscale and enhance features
 
 Synthetic Data Generation: Create realistic defect simulations using PyBinding
@@ -67,6 +71,7 @@ Machine Learning: Random Forest model trained on synthetic-experimental feature 
 Coordinate Prediction: Precise defect localization and characterization
 
 ### Contributing
+
 To add support for new materials:
 
 Define the crystal lattice in PyBinding
