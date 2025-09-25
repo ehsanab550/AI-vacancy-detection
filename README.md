@@ -1,7 +1,9 @@
 # AI-vacancy-detection
+<img width="708" height="390" alt="image" src="https://github.com/user-attachments/assets/420616b4-5815-4b29-8893-abf40c3b36ca" />
+
 AI model for detecting vacancies in 2D materials
 # AI Vacancy Detection in 2D Materials
-<img width="708" height="390" alt="image" src="https://github.com/user-attachments/assets/95750917-6218-4b73-a08d-b44f212a5e5d" />
+
 
 A machine learning-based approach for detecting and analyzing vacancies in 2D materials using experimental STM images.
 
