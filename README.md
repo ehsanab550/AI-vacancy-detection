@@ -21,14 +21,14 @@ This project provides a computational tool for automatically identifying and cha
 
 This project requires the following Python library:
 
-conda install numpy scipy matplotlib
+--- conda install numpy scipy matplotlib
 
-pip install pybinding
+--- pip install pybinding
 
 ### Usage
 
 #### For Experimental Image Analysis
-To achieve high-accuracy predictions from experimental STM images, follow these steps:
+- **To achieve high-accuracy predictions from experimental STM images, follow these steps**:
 
   1) Set System Dimensions: Define the physical size of the 2D material layer in nanometers as an input parameter.
 
@@ -74,8 +74,8 @@ To achieve high-accuracy predictions from experimental STM images, follow these 
 
 To add support for new materials:
 
-  Define the crystal lattice in PyBinding
+  ++ Define the crystal lattice in PyBinding
 
-  Add material-specific parameters to the configuration
+  ++ Add material-specific parameters to the configuration
 
-  Generate appropriate synthetic training data
+  ++ Generate appropriate synthetic training data
