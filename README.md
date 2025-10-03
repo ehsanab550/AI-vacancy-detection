@@ -29,6 +29,9 @@ This project requires the following Python library:
 --- pip install pybinding
 
 ### Usage
+### Input setting
+
+- In AI_vacancy.ipynb, in "CONFIGURATION SECTION" set the input parameters
 
 #### For Experimental Image Analysis
 - **To achieve high-accuracy predictions from experimental STM images, follow these steps**:
