@@ -68,7 +68,7 @@ This project requires the following Python library:
 
 > Image Preprocessing: Convert experimental images to grayscale and enhance features
 
-> Synthetic Data Generation: Create realistic defect simulations using PyBinding
+> Synthetic Data Generation: Create realistic defect simulations using PyBinding (2Dmaterials.py)
 
 > Feature Extraction: Analyze texture, contrast, and structural patterns
 
