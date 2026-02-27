@@ -11,12 +11,12 @@ A machine learning-based approach for detecting and analyzing vacancies in 2D ma
 
 This project provides a computational tool for automatically identifying and characterizing defects in 2D materials through image analysis and machine learning. The system processes experimental scanning tunneling microscopy (STM) images and predicts defect coordinates with high accuracy.
 
-## Features
+## ✨ Features
 
-- **Multi-material support**: MoS₂, graphene, and phosphorene
-- **Synthetic data generation**: Automatic creation of training datasets
-- **High-accuracy prediction**: Machine learning model for defect detection
-- **Experimental image processing**: Advanced image analysis capabilities
+- **Multi‑material support**: MoS₂, graphene, and phosphorene  
+- **Synthetic data generation**: Automatic creation of realistic training datasets  
+- **High‑accuracy prediction**: Machine learning model for defect detection  
+- **Experimental image processing**: Advanced image analysis capabilities  
 
 ## Installation
 
@@ -86,7 +86,7 @@ To add support for new materials:
 
 ### Citation
 
-#If you use this code in your research, please cite the following paper:
+# If you use this code in your research, please cite the following paper:
 @article{alibagheri2026ai,
   title={AI-driven image processing framework for high-accuracy detection and characterization of vacancies in 2D materials},
   author={Alibagheri, E.},
@@ -96,7 +96,7 @@ To add support for new materials:
 }
 
 ### License
-#This project is available for academic use. Please cite the paper if you use the code. For commercial use, please contact the author.
+# This project is available for academic use. Please cite the paper if you use the code. For commercial use, please contact the author.
 
 
 
