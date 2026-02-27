@@ -1,92 +1,90 @@
-# AI-vacancy-detection
-<img width="708" height="390" alt="image" src="https://github.com/user-attachments/assets/420616b4-5815-4b29-8893-abf40c3b36ca" />
 
-AI model for detecting vacancies in 2D materials
 # AI Vacancy Detection in 2D Materials
 
+<img width="708" height="390" alt="STM image showing vacancies in 2D material" src="https://github.com/user-attachments/assets/420616b4-5815-4b29-8893-abf40c3b36ca" />
 
-A machine learning-based approach for detecting and analyzing vacancies in 2D materials using experimental STM images.
+[![DOI](https://img.shields.io/badge/DOI-10.1038/s41699--026--00667--4-blue)](https://doi.org/10.1038/s41699-026-00667-4)
 
-## Overview
+A **machine learning‑based approach** for detecting and analyzing vacancies in 2D materials using experimental Scanning Tunneling Microscopy (STM) images.
 
-This project provides a computational tool for automatically identifying and characterizing defects in 2D materials through image analysis and machine learning. The system processes experimental scanning tunneling microscopy (STM) images and predicts defect coordinates with high accuracy.
+---
+
+## 📖 Overview
+
+This project provides a computational tool for **automatically identifying and characterizing defects** in 2D materials through image analysis and machine learning. The system processes experimental STM images and predicts defect coordinates with high accuracy.
 
 ## ✨ Features
 
-- **Multi‑material support**: MoS₂, graphene, and phosphorene  
-- **Synthetic data generation**: Automatic creation of realistic training datasets  
-- **High‑accuracy prediction**: Machine learning model for defect detection  
-- **Experimental image processing**: Advanced image analysis capabilities  
+- **Multi‑material support**: MoS₂, graphene, and phosphorene
+- **Synthetic data generation**: Automatic creation of realistic training datasets
+- **High‑accuracy prediction**: Machine learning model for defect detection
+- **Experimental image processing**: Advanced image analysis capabilities
 
-## Installation
+## ⚙️ Installation
 
 ### Prerequisites
 
-This project requires the following Python library:
+This project requires the following Python libraries:
 
---- conda install numpy scipy matplotlib
+```bash
+conda install numpy scipy matplotlib
+pip install pybinding
+🚀 Usage
+Input configuration
+In AI_vacancy.ipynb, locate the CONFIGURATION SECTION and set the required parameters.
 
---- pip install pybinding
+For experimental image analysis
+To obtain high‑accuracy predictions from experimental STM images, follow these steps:
 
-### Usage
-### Input setting
+Set system dimensions – Define the physical size of the 2D material layer in nanometers.
 
-- In AI_vacancy.ipynb, in "CONFIGURATION SECTION" set the input parameters
+Use high‑resolution images – Input images should have a resolution >120 DPI for optimal feature extraction.
 
-#### For Experimental Image Analysis
-- **To achieve high-accuracy predictions from experimental STM images, follow these steps**:
+Select material – In AI_vacancy.ipynb, specify one of the supported materials: MoS₂, graphene, or phosphorene.
 
-  1) Set System Dimensions: Define the physical size of the 2D material layer in nanometers as an input parameter.
+For unsupported materials – Define the crystal lattice in PyBinding (lattice constants and atom coordinates).
 
-  2) Use High-Resolution Images: Ensure input images have high resolution (>120 DPI) for optimal feature extraction.
+Generate training data – The code automatically processes your experimental image and generates synthetic training data with diverse defects.
 
-  3) Select Material: In AI_vacancy.ipynb, specify the material (MoS₂, graphene, or phosphorene).
+Predict defect coordinates – The ML model combines experimental features with synthetic training to predict precise defect locations.
 
-  4) For unsupported materials: Define the crystal lattice in PyBinding (lattice constants and atom coordinates)
+Main scripts
+AI_vacancy.ipynb – Main code for vacancy detection and analysis
 
-  5) Generate Training Data: The code automatically processes your experimental image and generates synthetic training data with diverse defects.
+Plotting utilities – Use the provided scripts for visualisation.
 
-  6) Predict Defect Coordinates: The ML model combines experimental features with synthetic training to predict precise defect coordinates.
+🧪 Supported Materials
+MoS₂ (Molybdenum Disulfide)
 
-### Main Scripts
+Graphene
 
-  AI_vacancy.ipynb: Main code for vacancy detection and analysis
+Phosphorene
 
-  Plotting utilities: Use the provided plotting scripts for visualization.
+Extensible to other 2D materials
 
-### Supported Materials
+🔬 Methodology
+Image Preprocessing – Convert experimental images to grayscale and enhance features
+Synthetic Data Generation – Create realistic defect simulations using PyBinding (2D_materials.py)
+Feature Extraction – Analyse texture, contrast, and structural patterns
+Machine Learning – Random Forest model trained on synthetic‑experimental feature combinations
+Coordinate Prediction – Precise defect localisation and characterisation
 
--MoS₂ (Molybdenum Disulfide)
+🤝 Contributing
+To add support for a new material:
 
--Graphene
+Define the crystal lattice in PyBinding
 
--Phosphorene
+Add material‑specific parameters to the configuration
 
--Extensible to other 2D materials
+Generate appropriate synthetic training data
 
-### Methodology
+📝 Citation
+If you use this code in your research, please cite the following paper:
 
-> Image Preprocessing: Convert experimental images to grayscale and enhance features
+Alibagheri, E. AI‑driven image processing framework for high‑accuracy detection and characterization of vacancies in 2D materials. npj 2D Materials and Applications (2026).
+DOI: 10.1038/s41699-026-00667-4
 
-> Synthetic Data Generation: Create realistic defect simulations using PyBinding (2D_materials.py)
-
-> Feature Extraction: Analyze texture, contrast, and structural patterns
-
-> Machine Learning: Random Forest model trained on synthetic-experimental feature combinations
-
-> Coordinate Prediction: Precise defect localization and characterization
-
-### Contributing
-
-To add support for new materials:
-
-  ++ Define the crystal lattice in PyBinding
-
-  ++ Add material-specific parameters to the configuration
-
-### Citation
-
-# If you use this code in your research, please cite the following paper:
+bibtex
 @article{alibagheri2026ai,
   title={AI-driven image processing framework for high-accuracy detection and characterization of vacancies in 2D materials},
   author={Alibagheri, E.},
@@ -94,10 +92,7 @@ To add support for new materials:
   year={2026},
   doi={10.1038/s41699-026-00667-4}
 }
+📄 License
+This project is available for academic use. Please cite the paper if you use the code. For commercial use, please contact the author.
 
-### License
-# This project is available for academic use. Please cite the paper if you use the code. For commercial use, please contact the author.
-
-
-
-  ++ Generate appropriate synthetic training data
+For questions or issues, please open an issue on GitHub.
