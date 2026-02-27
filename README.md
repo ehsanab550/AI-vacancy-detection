@@ -26,12 +26,13 @@ This project provides a computational tool for **automatically identifying and c
 
 This project requires the following Python libraries:
 
-```bash
-conda install numpy scipy matplotlib
-pip install pybinding
-🚀 Usage
-Input configuration
-In AI_vacancy.ipynb, locate the CONFIGURATION SECTION and set the required parameters.
+#### bash
+- conda install numpy scipy matplotlib
+- pip install pybinding
+
+## 🚀 Usage
+ > Input configuration
+ > In AI_vacancy.ipynb, locate the CONFIGURATION SECTION and set the required parameters.
 
 For experimental image analysis
 To obtain high‑accuracy predictions from experimental STM images, follow these steps:
@@ -62,14 +63,14 @@ Phosphorene
 
 Extensible to other 2D materials
 
-🔬 Methodology
+## 🔬 Methodology
 Image Preprocessing – Convert experimental images to grayscale and enhance features
 Synthetic Data Generation – Create realistic defect simulations using PyBinding (2D_materials.py)
 Feature Extraction – Analyse texture, contrast, and structural patterns
 Machine Learning – Random Forest model trained on synthetic‑experimental feature combinations
 Coordinate Prediction – Precise defect localisation and characterisation
 
-🤝 Contributing
+## 🤝 Contributing
 To add support for a new material:
 
 Define the crystal lattice in PyBinding
@@ -78,7 +79,7 @@ Add material‑specific parameters to the configuration
 
 Generate appropriate synthetic training data
 
-📝 Citation
+## 📝 Citation
 If you use this code in your research, please cite the following paper:
 
 Alibagheri, E. AI‑driven image processing framework for high‑accuracy detection and characterization of vacancies in 2D materials. npj 2D Materials and Applications (2026).
