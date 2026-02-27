@@ -83,7 +83,7 @@ If you use this code in your research, please cite the following paper:
 
 #### Alibagheri, E. AI‑driven image processing framework for high‑accuracy detection and characterization of vacancies in 2D materials. npj 2D Materials and Applications (2026).
  
-
+bibtex
 @article{alibagheri2026ai,
   title={AI-driven image processing framework for high-accuracy detection and characterization of vacancies in 2D materials},
   author={Alibagheri, E.},
@@ -91,6 +91,7 @@ If you use this code in your research, please cite the following paper:
   year={2026},
   doi={10.1038/s41699-026-00667-4}
 }
+
 ### 📄 License
 This project is available for academic use. Please cite the paper if you use the code. For commercial use, please contact the author.
 
