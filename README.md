@@ -49,9 +49,9 @@ To obtain high‑accuracy predictions from experimental STM images, follow these
 6. Predict defect coordinates – The ML model combines experimental features with synthetic training to predict precise defect locations.
 
 ### Main scripts
-AI_vacancy.ipynb – Main code for vacancy detection and analysis
+. **AI_vacancy.ipynb** – Main code for vacancy detection and analysis
 
-. Plotting utilities – Use the provided scripts for visualisation.
+. **Plotting utilities** – Use the provided scripts for visualisation.
 
 ## 🧪 Supported Materials
 . MoS₂ (Molybdenum Disulfide)
@@ -67,7 +67,7 @@ AI_vacancy.ipynb – Main code for vacancy detection and analysis
 - Synthetic Data Generation – Create realistic defect simulations using PyBinding (2D_materials.py)
 - Feature Extraction – Analyse texture, contrast, and structural patterns
 - Machine Learning – Random Forest model trained on synthetic‑experimental feature combinations
-Coordinate Prediction – Precise defect localisation and characterisation
+- Coordinate Prediction – Precise defect localisation and characterisation
 
 ## 🤝 Contributing
 To add support for a new material:
